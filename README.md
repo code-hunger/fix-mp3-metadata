@@ -5,7 +5,10 @@ E.g. you have a file named
 
 `Iron Maiden - Fear of the dark.mp3`
 
-But in your phone you see only the "Iron Maiden" part and 3 dots?
+But in your phone you see only the "Iron Maiden" part and ellipsis?
 Download the script and run it.
-The program will assume the left part as the artist name and the right as the song name.
+The program will split the filename in 2 parts based on the dash - the left one as the artist name and the right one as the song name.
 
+What you need is a perl interpreter.
+What you'll most likely get as error would be "Can't locate MP3/Tag.pm in @INC". Don't worry - just enter  
+`cpanm MP3::Tag` to download the module. MP3::Tag is the perl module that the program is based on.
