@@ -1,5 +1,5 @@
 # perl-mp3-file-meta-info-formatter
-You have a list of mp3 files that are properly named but on your phone/mp4 you see only the author?
+You have a list of mp3 files but on your phone/mp4 you see only the author?
 Use this script to extract the artist name and the song title from the file name.  
 E.g. you have a file named
 
